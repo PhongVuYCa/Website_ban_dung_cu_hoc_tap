@@ -1,0 +1,474 @@
+
+/* Giỏ hàng */
+.Giohang{
+    width: 85%; 
+    margin-top: 50px; 
+    height: auto; 
+    margin: 0 auto;
+}
+.Giohang td{
+    border: 0.1px solid #868585;
+    max-width: 350px;
+}
+.Giohang table{
+    margin-top: 50px;
+}
+.Giohang table tr:nth-child(1){
+    text-align: center;
+    font-weight: bold;
+}
+.Giohangtt{
+    margin-left: 70%; 
+    font-weight: bold;
+}
+
+.Giohangtt td{
+    vertical-align:center;
+}
+.buttontt{
+    margin-left: 72%;
+}
+.buttontt button{
+    padding: 5px ;
+    color: #fff;
+    background-color: #2d08e9d8;
+    font-size: 16px;
+    width: 150px;
+    margin-top: 10px;
+    height: 40px;
+    border: none;
+    font-weight: bold;
+}
+
+
+/* Thanh toán */
+.thanhtoan {
+    display: flex;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.tt-left {
+    width: 30%;
+    margin-left: 30px;
+}
+.tt-center{
+    width: 28%;
+    margin-left: 30px;
+}
+.tt-right {
+    width: 32%;
+    background-color: #f5f5f5;
+    margin-left: 30px;
+    padding:0 30px;
+}
+
+.tt-left table{
+    width: 100%;
+}
+.tt-left tr {
+    display: block; /* Mỗi dòng nằm trên một đoạn */
+    margin-bottom: 15px; /* Khoảng cách giữa các dòng */
+    border: 0.2px outset #dedede; /* Tạo đường viền cho mỗi dòng */
+    border-radius: 5px;
+}
+
+.tt-left td {
+    padding: 5px 0; /* Tăng khoảng cách giữa nội dung và viền */
+}
+
+.tt-left p {
+    margin: 0 0 0 30px; /* Loại bỏ khoảng trắng xung quanh văn bản */
+}
+
+.tt-center table{
+    width: 100%;
+}
+.tt-center tr {
+    display: block; /* Mỗi dòng nằm trên một đoạn */
+    margin-bottom: 15px; /* Khoảng cách giữa các dòng */
+    border: 0.2px outset #868585; /* Tạo đường viền cho mỗi dòng */
+    border-radius: 5px;
+}
+
+.tt-center td {
+    padding: 5px 0; /* Tăng khoảng cách giữa nội dung và viền */
+}
+
+.tt-center p {
+    margin: 0 0 0 30px; /* Loại bỏ khoảng trắng xung quanh văn bản */
+}
+
+.tt-right table {
+    width: 100%; /* Tăng khoảng cách giữa nội dung và viền */
+}
+
+.tt-right td {
+    padding: 5px 22px 5px 0;
+}
+.buttondh {
+    padding: 20px 30px 0 0;
+}
+.buttondh a{
+    text-decoration: none;
+}
+.buttondh button{
+    color: #fff;
+    background-color: #2d08e9d8;
+    font-size: 16px;
+    width: 120px;
+    height: 40px;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+
+.header{
+    width: 100%;
+}
+
+.header1{
+    width: 100% ;
+    height: 100px;
+    background: #c3b9f4d8;
+    top: 0;
+    margin-left: -8px;
+}
+
+.header1 ul{
+    float: left;
+    margin: 10px 0;
+    list-style: none;
+}
+
+.header1 ul li{
+    float: left;
+    margin-left: 50px;
+}
+
+.headerTitle {
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-top: 15px
+}
+
+.header1 ul li a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 16px;
+    margin-left: 80px;
+    margin-top: 20px;
+    float: left;
+}
+
+.header1 ul li a:hover{
+    color: #2d08e9d8;
+    text-decoration: none;
+}
+
+.header img {
+    width: 30px;
+    height: 30px;
+}
+
+.icon-heart{
+    color: white;
+    float: left;
+    margin-top: 15px;
+    font-size: 18px;
+    margin-left: 90px;
+}
+
+.icon-lock{
+    color: white;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.nav{
+    display: block;
+}
+
+.nav ul{
+    float: left;
+    margin: 100px 0;
+    list-style: none;
+}
+
+.nav ul li{
+    float: left;
+}
+
+.nav ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    padding: 0 20px;
+    letter-spacing: 2px;
+    font-size: 18px;
+    margin-left: 40px;
+}
+
+.nav ul li a:hover{
+    color: #2d08e9d8;
+    text-decoration: none;
+}
+
+.search{
+    width: 300px;
+    height: 30px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+.wrap-icon{
+    width: 40px;
+    height: 30px;
+    background: #2d08e9d8;
+    float: right;
+}
+
+.icon-star{
+    color: #2d08e9d8;
+    font-size: 60px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+
+.logo .mobile{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    float: left;
+    margin-left: 15px;
+    margin-top: 95px;
+}
+
+.logo .store{
+    text-decoration: none;
+    color: #2d08e9d8;
+    font-size: 25px;
+    margin-top: 70px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 95px;
+}
+
+footer{
+    background-color: #c3b9f4d8;
+    display: block;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+    /*position: fixed;*/
+    bottom: 0;
+}
+
+.container-footer{
+    display: flex;
+    gap: 40px;
+    padding: 30px;
+}
+.container-footer h4{
+    color:#C3BFBF;
+    /*font-family: 'Oswald';*/
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 30px;
+    margin-left: 170px;
+}
+
+/* Style for the main list */
+.dropdown-menu {
+    margin-top: 40px;
+    margin-bottom: 0px;
+    float: right;
+    margin-right: 80px;
+    position: relative; /* Set the parent as relative */
+}
+
+
+/* Home */
+.home{
+    width: 100%;
+    display: flex;
+}
+.home_left{
+    width: 20%;
+    padding:50px 30px;
+    border-right: 2px solid #c3b9f4d8;
+    background-color: #f5f5f5;
+    min-height: 400px;
+}
+
+.home_right{
+    width: 80%;
+}
+
+.form{
+      
+    font-family: "roboto", sans-serif;
+    position: relative;
+    background: #bdb0ffd8;
+    opacity: 99%;
+    max-width: 420px;
+    margin: 60px 0 60px 420px;
+    padding: 40px 45px 50px 45px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 10px;
+    min-height: 300px;
+  
+  
+  }
+
+.ThongTinTaiKhoan {
+    margin: 50px 0;
+    
+}
+.ThongTinTaiKhoan td{
+    padding: 0 15px;
+}
+
+
+
+.admin{
+    display: flex;
+    width: 100%;
+    min-height: 600px;
+}
+/* .admin_left{
+    width: 20%;
+    background-color: #000;
+    padding:50px 20px 0 20px;
+    
+}
+.admin_right{
+    width: 80%;
+} */
+
+.admin_left{
+    width: 20%;
+    background-color: #000;
+    padding: 50px 20px 0 20px;
+    position: fixed; /* Giữ phần admin_left ở vị trí cố định */
+    top: 0; /* Giữ phần admin_left ở phía trên cùng của cửa sổ trình duyệt */
+    left: 0; /* Giữ phần admin_left ở bên trái của cửa sổ trình duyệt */
+    bottom: 0; /* Đảm bảo phần admin_left mở rộng đến dưới cùng của cửa sổ trình duyệt */
+}
+
+.admin_right{
+    margin-left: 20%; /* Để tránh việc phần admin_right bị che khuất bởi admin_left */
+    width: 80%;
+}
+
+
+.DSSanPham{
+    display: flex;
+    justify-content: center;
+}
+.DSSanPham table{
+    margin-top: 10px;
+    width: 90%;
+    border-collapse: collapse;
+    
+}
+.DSSanPham table td {
+    border: 1px solid #000; 
+    padding: 8px; 
+    text-align: center;
+}
+
+
+/* Home */
+.tabs {
+    display: flex;
+    position: relative;
+}
+
+.tabs .line {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 6px;
+    border-radius: 15px;
+    background-color: #2d08e9d8;
+    transition: all 0.2s ease;
+}
+
+.tab-item {
+    margin-left: 50px;
+    min-width: 80px;
+    padding: 16px 20px 11px 20px;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    background-color: #2d08e9d8;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: 5px solid transparent;
+    opacity: 0.6;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.card {
+    width: 15rem;
+    margin-left: 50px;
+    float: left;
+    margin-top: 20px;
+}
+
+.card img {
+    width: 160px;
+    height: 160px;
+    margin-left: 40px;
+    margin-top: 20px
+}
+
+.card-body a {
+    text-decoration: none;
+    color: black;
+    margin-left: 70px
+}
+
+
+
+
+
+
+
+.pagination-container {
+    float: left;
+    margin-left: 300px;
+    margin-top: 20px; /* Thêm khoảng cách từ trên xuống */
+}
+
+/* Điều chỉnh các thuộc tính của phân trang */
+.pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.pagination li {
+    margin-right: 5px;
+}
+
+.pagination li a {
+    text-decoration: none;
+    background-color: #eee;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.pagination .active a {
+    background-color: #333;
+    color: #fff;
+}
